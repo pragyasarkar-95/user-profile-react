@@ -1,0 +1,84 @@
+.app-css{
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.profile-pic-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.outerCircle-div {
+  width: 180px;
+  height: 180px;
+  border: #247de2;
+  background-color: rgba(165, 170, 248, 0.7);
+  border-radius: 50%;
+  /* margin-left: 33%;
+  margin-top: -30%; */
+  margin-top: 15px;
+}
+.innerCircle-div {
+  width: 163.8px;
+  height: 163.8px;
+  background-color: #4693ff;
+  border-radius: 50%;
+  margin-left: 4.5%;
+  position: relative;
+  top: 8px;
+}
+.profile-icon {
+  width: 145px;
+  height: 145px;
+  margin-left: 6%;
+  margin-top: 6%;
+  border-radius: 50%;
+}
+.profile-name {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  display: flex;
+  justify-content: center;
+  color: #424242;
+  margin-top: 8px;
+  margin-left: 35px;
+}
+.profile-designation {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #676767;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 6px;
+  margin-left: 35px;
+}
+.profile-email {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8px;
+  color: #424242;
+  margin-left: 35px;
+}
+.gender-selection{
+  display: flex;
+  justify-content: center;
+  color: #424242;
+  font-size: 16px;
+  line-height: 35px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+}
